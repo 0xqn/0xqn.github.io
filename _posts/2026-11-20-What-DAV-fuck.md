@@ -364,7 +364,7 @@ Impacket v0.13.1 - Copyright Fortra, LLC and its affiliated companies
 [*] (HTTP): Connection from 127.0.0.1 controlled, but there are no more targets left!
 ```
 
-The machine account `CONTOSO\MS01$` is now authenticated against the DC's LDAP. From here we can get creative and obtain local admin on the server in several ways, for example by configuring **RBCD** (Resource-Based Constrained Delegation) or by using **Shadow Credentials** technique.
+The machine account `CONTOSO\MS01$` is now authenticated against the DC's LDAP. From here we can get creative and obtain SYSTEM on the server in several ways, for example by configuring **RBCD** (Resource-Based Constrained Delegation) or by using the **Shadow Credentials** technique to recover the machine account hash for later use.
 
 ---
 
